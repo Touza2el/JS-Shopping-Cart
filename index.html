@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/all.min.css" />
+    <link rel="stylesheet" href="scss/style.css" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <!-- Start Navbar Section -->
+    <div class="nav-bar">
+      <div class="nav-bar-title">
+        <h3>shopping cart</h3>
+      </div>
+      <div class="nav-bar-cart">
+        <div class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="cart-number">0</div>
+      </div>
+    </div>
+    <!-- End Navbar Section -->
+
+    <!-- Start Products Section -->
+    <div class="products-section">
+      <div class="products-section-title">
+        <h2>our latest products</h2>
+        <span></span>
+      </div>
+      <div class="products-container"></div>
+    </div>
+    <!-- End Products Section -->
+
+    <!-- Start Cart Section -->
+    <div class="cart-section">
+      <div class="cart-overlay"></div>
+      <div class="cart-content">
+        <div class="cart-header">
+          <div class="close-cart-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="cart-title">
+            <h2>your cart</h2>
+          </div>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-footer">
+          <h3>total : $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Cart Section -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
