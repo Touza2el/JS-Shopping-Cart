@@ -90,6 +90,7 @@ body {
 .product {
   margin-top: 30px;
   width: 23%;
+  border: 2px solid #eee;
   cursor: pointer;
   &:hover button {
     transform: translateY(-35px);
@@ -101,7 +102,7 @@ body {
 .product-image {
   position: relative;
   overflow: hidden;
-  border: 1px solid #eee;
+  border-bottom: 2px solid #eee;
   img {
     display: block;
     width: 100%;
@@ -125,7 +126,9 @@ body {
   }
 }
 .product-info {
-  text-align: center;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
   h3 {
     color: #212121;
     text-transform: capitalize;

@@ -98,6 +98,7 @@ body {
 .product {
   margin-top: 30px;
   width: 23%;
+  border: 2px solid #eee;
   cursor: pointer;
 }
 
@@ -112,7 +113,7 @@ body {
 .product-image {
   position: relative;
   overflow: hidden;
-  border: 1px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 
 .product-image img {
@@ -140,7 +141,9 @@ body {
 }
 
 .product-info {
-  text-align: center;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .product-info h3 {
